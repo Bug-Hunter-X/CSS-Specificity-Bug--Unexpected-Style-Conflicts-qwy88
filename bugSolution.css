@@ -1,0 +1,15 @@
+/* bugSolution.css */
+
+#myElement {
+  color: blue; /*This will now override inline style with higher specificity*/
+}
+
+/*or use !important (use sparingly)*/
+#myElement {
+  color: blue !important; /*This will override any specificity*/
+}
+
+/*or use a more specific selector*/
+#myElement.special {
+  color: blue;
+}
